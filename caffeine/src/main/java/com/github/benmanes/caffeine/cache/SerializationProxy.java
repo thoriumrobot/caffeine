@@ -68,7 +68,7 @@ final class SerializationProxy<K, V> implements Serializable {
       builder.weigher((Weigher<Object, Object>) weigher);
     }
     if (expiry != null) {
-      builder.expireAfter(expiry);
+      // builder.expireAfter(expiry);
     }
     if (expiresAfterWriteNanos > 0) {
       builder.expireAfterWrite(expiresAfterWriteNanos, TimeUnit.NANOSECONDS);

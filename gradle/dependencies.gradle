@@ -93,7 +93,7 @@ ext {
     versions: '0.20.0',
   ]
   annotationProcessorVersions = [
-    nullaway: '0.6.0',
+    nullaway: '0.6.4',
   ]
 
   libraries = [
