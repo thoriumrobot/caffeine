@@ -56,7 +56,6 @@ ext {
   ]
   benchmarkVersions = [
     cache2k: '1.2.0.Final',
-    collision: '0.3.3',
     commonsMath3: '3.6.1',
     concurrentlinkedhashmap: '1.4.2',
     ehcache3: '3.6.1',
@@ -153,7 +152,6 @@ ext {
   ]
   benchmarkLibraries = [
     cache2k: "org.cache2k:cache2k-core:${benchmarkVersions.cache2k}",
-    collision: "systems.comodal:collision:${benchmarkVersions.collision}",
     commonsMath3: "org.apache.commons:commons-math3:${benchmarkVersions.commonsMath3}",
     concurrentlinkedhashmap: "com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:${benchmarkVersions.concurrentlinkedhashmap}",
     ehcache3: "org.ehcache:ehcache:${benchmarkVersions.ehcache3}",
